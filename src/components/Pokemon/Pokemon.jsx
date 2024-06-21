@@ -1,9 +1,5 @@
-const Pokemon = (props) => {
-    return (
-        <>
-            <h2>Pokemon</h2>
-        </>
-    );
+const Pokemon = ({ pokemon }) => {
+    return <li>{pokemon.name}</li>;
 };
 
 export default Pokemon;
